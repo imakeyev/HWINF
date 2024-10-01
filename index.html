@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Музыкальный проигрыватель</title>
+    <style>
+        audio {
+            margin-top: 10px;
+        }
+        #playlist {
+            list-style-type: none;
+            padding: 0;
+        }
+        #playlist li {
+            cursor: pointer;
+            margin: 5px 0;
+            padding: 5px;
+            background-color: #000000;
+            border-radius: 4px;
+        }
+        #playlist li:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Жалкая Замена Музыки</h1>
+        <nav>
+            <ul>
+                <li><a href="site.html#about">Обо мне</a></li>
+                <li><a href="site.html#services">Достижения</a></li>
+                <li><a href="site.html#contact">Контакты</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="documents.html">Документы</a></li> 
+                <li><a href="index.html">ЖЗМ</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+
+<center>
+    <audio id="audioPlayer" controls>
+        <source id="audioSource" src="1.mp3" type="audio/mp3">
+        НТР
+    </audio>
+</center>
+<footer>
+    <p>&copy; 2024 Персональный сайт Ивана Макеева</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
